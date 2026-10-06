@@ -1,13 +1,13 @@
 import { useState } from 'react';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
-import { BarChart3, Box, ChevronRight, ClipboardArrowDown, ClipboardArrowUp, FileBarChart, LogOut, Menu, ScanBarcode, Settings, Tags, Users, X } from 'lucide-react';
+import { BarChart3, Box, ChevronRight, ArrowDownToLine, ArrowUpFromLine, FileBarChart, LogOut, Menu, ScanBarcode, Settings, Tags, Users, X } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 
 const nav = [
   { to: '/', label: 'Dashboard', icon: BarChart3 },
   { to: '/equipamentos', label: 'Equipamentos', icon: Box },
-  { to: '/saidas', label: 'Saídas', icon: ClipboardArrowUp },
-  { to: '/devolucoes', label: 'Devoluções', icon: ClipboardArrowDown },
+  { to: '/saidas', label: 'Saídas', icon: ArrowUpFromLine },
+  { to: '/devolucoes', label: 'Devoluções', icon: ArrowDownToLine },
   { to: '/scanner', label: 'Scanner', icon: ScanBarcode },
   { to: '/etiquetas', label: 'Etiquetas', icon: Tags },
   { to: '/relatorios', label: 'Relatórios', icon: FileBarChart }
@@ -22,8 +22,8 @@ const adminNav = [
 const mobileNav = [
   { to: '/', label: 'Início', icon: BarChart3 },
   { to: '/scanner', label: 'Scanner', icon: ScanBarcode },
-  { to: '/saidas/nova', label: 'Saída', icon: ClipboardArrowUp },
-  { to: '/devolucoes', label: 'Devolver', icon: ClipboardArrowDown }
+  { to: '/saidas/nova', label: 'Saída', icon: ArrowUpFromLine },
+  { to: '/devolucoes', label: 'Devolver', icon: ArrowDownToLine }
 ];
 
 export function AppLayout() {
