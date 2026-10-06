@@ -1,0 +1,9 @@
+SE APARECER 404 NO VERCEL:
+
+1) Abra Settings > Build and Deployment > Root Directory.
+2) A raiz deve conter diretamente package.json + vercel.json + api + apps.
+3) Framework: Vite
+4) Build Command: npm run build
+5) Output Directory: dist
+6) Faça Redeploy.
+7) Teste primeiro /api/ping. Ele funciona sem banco.

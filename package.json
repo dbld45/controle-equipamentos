@@ -1,0 +1,21 @@
+{
+  "name": "controle-equipamentos-av-vercel",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/api",
+    "apps/web"
+  ],
+  "scripts": {
+    "dev": "npm run api:dev & npm run web:dev",
+    "api:dev": "npm --workspace @controle-av/api run dev",
+    "web:dev": "npm --workspace @controle-av/web run dev",
+    "web:build": "npm --workspace @controle-av/web run build",
+    "build": "npm run web:build",
+    "vercel-build": "npm run web:build"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}

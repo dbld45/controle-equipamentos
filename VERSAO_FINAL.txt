@@ -1,0 +1,20 @@
+CONTROLE DE EQUIPAMENTOS AV — VERSÃO FINAL
+
+Escopo concluído:
+- Backend Node.js/Express/TypeScript + SQLite/Drizzle
+- Frontend React/TypeScript/Tailwind
+- Login JWT + bcrypt + perfis Admin/Operador
+- Cadastro, edição, baixa, fotos, categorias e código interno automático
+- Estoque unitário e em lote
+- Scanner Code 128 por câmera e leitor USB
+- Saídas externa/aluguel e kits por bipagem
+- Devolução parcial, faltantes, danos e manutenção
+- Manutenção manual e automática
+- Dashboard e atrasos
+- Etiquetas PDF em 3 colunas
+- Relatórios PDF, XLSX e CSV
+- Usuários e categorias
+- Auditoria, backup SQLite e exportação JSON
+- Build de produção e Docker Compose
+
+Leia README.md para instalação, credenciais de demonstração e deploy.

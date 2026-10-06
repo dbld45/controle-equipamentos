@@ -1,0 +1,12 @@
+CONTROLE AV — EDIÇÃO VERCEL
+
+Adaptado para:
+- Vercel + Vite
+- Express como Vercel Function
+- PostgreSQL / Neon
+- Inicialização automática do schema
+- JWT + bcrypt
+- Scanner HTTPS no celular
+- Backups JSON em nuvem
+
+Ver DEPLOY_VERCEL.md para publicação.
